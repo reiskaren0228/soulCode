@@ -72,15 +72,15 @@ Caso você ainda não tenha configurado o ambiente no Insomnia, você pode fazê
 
 3. Siga as instruções específicas de cada exercício ou projeto. Geralmente, os passos são:
 
-   -Instale as dependências:
+   - Instale as dependências:
    ```bash
     npm install
    ```
 
-   -Rode o projeto:
-  ```bash
+   - Rode o projeto:
+   ```bash
     npm start
-  ```
+   ```
 
 4.Contato
 Para dúvidas ou mais informações sobre o curso e os exercícios, entre em contato:
