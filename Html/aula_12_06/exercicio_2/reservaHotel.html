@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reservaHotel.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Reserva de Hotel</title>
+  </head>
+  <body>
+    <h1>Faça Aqui sua Reserva</h1>
+
+    <form action="">
+      <div>
+        <label for="cNome">Nome:</label>
+        <input
+          type="text"
+          id="cNome"
+          name="nome"
+          placeholder="Digite seu nome aqui"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="cEmail">Email: </label>
+        <input
+          type="email"
+          id="cEmail"
+          name="email"
+          placeholder="seunome@email.com"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="dataCheckIn">Data de Check-In: </label>
+        <input
+          type="date"
+          min="2000-01-01"
+          max="2025-12-12"
+          id="dataCheckIn"
+          name="dataCheckIn"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="dataCheckOut">Data de Check-Out: </label>
+        <input
+          type="date"
+          min="2000-01-01"
+          max="2025-12-12"
+          id="dataCheckOut"
+          name="dataCheckOut"
+          required
+        />
+      </div>
+
+      <div>
+        <label>Tipo de Quarto:</label>
+        <select required>
+          <option disabled selected>Selecione seu quarto</option>
+          <option name="opcao">Duplo Solteiro</option>
+          <option name="opcao">Quarto Casal</option>
+          <option name="opcao">Dormitórios</option>
+          <option name="opcao">Standard</option>
+          <option name="opcao">Master</option>
+          <option name="opcao">Deluxe</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="ComentáriosAdicionais">Comentários adicionais:</label>
+        <textarea
+          id="ComentáriosAdicionais"
+          name="ComentáriosAdicionais"
+          placeholder="Deixe aqui seu comentário ou solicitação adicionais"
+          required
+        ></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+
+      <div>
+        <button id="paginaInicial">
+          <a href="formularios_exer.html">Voltar para a página inicial</a>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pedidoComidaOnline.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulário de Pedido de Comida</title>
+  </head>
+  <body>
+    <h1>Faça Aqui seu Pedido de Comida</h1>
+    <form action="">
+      <div>
+        <label for="cNome">Nome:</label>
+        <input
+          type="text"
+          id="cNome"
+          name="nome"
+          placeholder="Digite seu nome aqui"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="cEndereco">Endereço:</label>
+        <input
+          type="text"
+          id="cEndereco"
+          name="endereco"
+          placeholder="Digite aqui seu endereço"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="cTelefone">Contato:</label>
+        <input
+          type="tel"
+          id="cTelefone"
+          name="telefone"
+          placeholder="(081) 00000-0000"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="opcaoCulinaria">Escolha o seu perfil de comida:</label>
+        <select id="opcaoCulinaria" name="tipoComida" required>
+          <option disabled selected value="">
+            Selecione uma de nossas especialidades
+          </option>
+          <option>Culinária Regional</option>
+          <option>Culinária Francesa</option>
+          <option>Culinária Japonesa</option>
+          <option>Culinária Chinesa</option>
+          <option>Culinária Coreana</option>
+          <option>Culinária Italiana</option>
+          <option>Culinária Mediterrânea</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="observacao">Observação:</label>
+        <textarea
+          id="observacao"
+          name="observacao"
+          placeholder="Digite aqui sua observação..."
+        ></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+
+      <div>
+        <button id="paginaInicial">
+          <a href="formularios_exer.html">Voltar para a página inicial</a>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

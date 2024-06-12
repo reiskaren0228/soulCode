@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="agendamentoConsultaMedica.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Agendamento de Consulta Médica</title>
+  </head>
+  <body>
+    <h1>Faça Aqui seu Agendamento de Consulta Médica</h1>
+
+    <form action="">
+      <div>
+        <label for="cNome">Nome:</label>
+        <input
+          type="text"
+          id="cNome"
+          name="nome"
+          placeholder="Seu nome aqui"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="cEmail">Email: </label>
+        <input
+          type="email"
+          id="cEmail"
+          name="email"
+          placeholder="seunome@email.com"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="cTelefone">Telefone: </label>
+        <input
+          type="tel"
+          id="cTelefone"
+          name="telefone"
+          placeholder="(081) 00000-0000"
+          required
+        />
+      </div>
+      <div>
+        <label for="cDataNasc">Data de Nascimento: </label>
+        <input
+          type="date"
+          min="1900-01-01"
+          max="2024-12-12"
+          id="cDataNasc"
+          name="dataNasc"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="opcaoConsulta">Escolha o tipo de consulta medica:</label>
+        <select id="opcaoConsulta" name="tipoConsulta" required>
+          <option disabled selected value="">
+            Selecione uma de nossas especialidades
+          </option>
+          <option>Ginecologia</option>
+          <option>Ortopedia</option>
+          <option>Clinica Geral</option>
+          <option>Neurologia</option>
+          <option>Oftalmologia</option>
+          <option>Pediatra</option>
+          <option>Geriatria</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="observacao">Observação:</label>
+        <textarea
+          id="observacao"
+          name="observacao"
+          placeholder="Digite aqui sua observação..."
+        ></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+
+      <div>
+        <button id="paginaInicial">
+          <a href="formularios_exer.html">Voltar para a página inicial</a>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
