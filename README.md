@@ -11,21 +11,18 @@ Este repositório contém os exercícios solicitados pelo professor Almir José 
 Cada pasta neste repositório corresponde a uma aula ou módulo do curso e contém os exercícios e projetos desenvolvidos durante as aulas.
 .
 ├── HTML1
-│ ├── Aula1
+│ ├── Etapa1
 │ │ └── exercicio1.js
-│ ├── Aula2
+│ ├── Etapa2
 │ │ └── exercicio2.js
 │ └── ...
 ├── CSS
-│ ├── Aula1
+│ ├── Etapa1
 │ │ └── exercicio1.js
-│ ├── Aula2
+│ ├── Etapa2
 │ │ └── exercicio2.js
 │ └── ...
 └── JS...
-
-markdown
-Copiar código
 
 ## Tecnologias Utilizadas
 
@@ -76,16 +73,17 @@ Caso você ainda não tenha configurado o ambiente no Insomnia, você pode fazê
    -Instale as dependências:
    ```bash
     npm install
+   ```
 
-  -Rode o projeto:
+   -Rode o projeto:
   ```bash
-   npm start
- ```
+    npm start
+  ```
 
 4.Contato
 Para dúvidas ou mais informações sobre o curso e os exercícios, entre em contato:
 
-LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/reiskaren0228/)
+**LinkedIn: [Karen Reis](https://www.linkedin.com/in/reiskaren0228/)**
 
 Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
