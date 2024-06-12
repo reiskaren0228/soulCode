@@ -9,7 +9,8 @@ Este repositório contém os exercícios solicitados pelo professor Almir José 
 ## Estrutura do Repositório
 
 Cada pasta neste repositório corresponde a uma aula ou módulo do curso e contém os exercícios e projetos desenvolvidos durante as aulas.
-.
+
+   ```bash
 ├── HTML1
 │ ├── Etapa1
 │ │ └── exercicio1.js
@@ -23,6 +24,7 @@ Cada pasta neste repositório corresponde a uma aula ou módulo do curso e cont�
 │ │ └── exercicio2.js
 │ └── ...
 └── JS...
+   ```
 
 ## Tecnologias Utilizadas
 
