@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: papayawhip;
+    color: midnightblue;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  header .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  header h1 {
+    color: rgb(65, 21, 167);
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(65, 21, 167);
+    padding: 8px 12px;
+    margin: 0 6px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: rgba(65, 21, 167, 0.1);
+  }
+  
+  figure {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  figcaption {
+    font-style: italic;
+    color: gray;
+  }
+  
+  main section {
+    margin-bottom: 30px;
+  }
+  
+  .main-icons {
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  aside {
+    margin-left: auto;
+    text-align: center;
+  }
+  
+  aside h2 {
+    margin-bottom: 10px;
+  }
+  
+  aside nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  aside nav ul li {
+    margin-bottom: 8px;
+  }
+  
+  aside nav a {
+    text-decoration: none;
+    color: rgb(65, 21, 167);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  aside nav a:hover {
+    background-color: rgba(65, 21, 167, 0.1);
+  }
+  
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  footer hr {
+    margin-bottom: 10px;
+  }
+  

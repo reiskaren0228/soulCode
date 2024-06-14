@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo de Semântica</title>
+  </head>
+  <body style="background-color: papayawhip; font-family: Arial">
+    <!-- Semântica -> Dar mais significado aos elementos da página 
+ - section => seção de conteúdo / capítulos / informação de contato
+ - header => conteudo introdutorio / cabeçalho inicial da página / autoria
+ - nav => navegação de links
+ - footer => rodapé / copyright/ contato / mapa do site/ voltar para o topo
+ - aside => conteúdo adicional
+ - article => conteudo que não depende do que está fora
+ - main => conteúdo principal da página / não repetir
+-->
+
+    <header
+      style="
+        background-color: cadetblue;
+        padding: 8px;
+        border-radius: 10px;
+        width: 50%;
+        margin: auto;
+      "
+    >
+      <h1 style="color: green; text-align: center">Meu Site</h1>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Contato</a>
+        <a href="#">Sobre mim</a>
+        <a href="#">Meus projetos</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2 style="color: green; text-align: center">Apresentação</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+          accusamus ullam magni eum alias veritatis est ipsam dicta, odit nam in
+          dolorem esse aperiam sint libero quod, laudantium aliquam hic ratione
+          facilis reiciendis sed labore tenetur. Illo, nulla. Hic, quis.
+        </p>
+      </section>
+      <section>
+        <h2 style="color: green; text-align: center">Carreira</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          voluptates ipsum, itaque laudantium animi hic dignissimos quas atque?
+          Nesciunt vitae distinctio laborum magnam eaque a vel sapiente autem
+          quos fugit!
+        </p>
+      </section>
+      <section>
+        <h2 style="color: green; text-align: center">
+          Profissionais que trabalhei
+        </h2>
+        <article>
+          <h3 style="color: blueviolet">José Almir</h3>
+          <p><strong>Desenvolvedor</strong></p>
+          <p>Um profissional muito qualificado!</p>
+        </article>
+        <article>
+          <h3 style="color: blueviolet">Leonardo</h3>
+          <p><strong>Desenvolvedor</strong></p>
+          <p>Um ótimo desenvolvedor!</p>
+        </article>
+        <article>
+          <h3 style="color: blueviolet">Igor</h3>
+          <p><strong>Gerente de Projetos</strong></p>
+          <p>Um profissional muito organizado!</p>
+        </article>
+      </section>
+      <aside>
+        <h2 style="color: green; text-align: center">Minhas Redes Sociais</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Hackerrank</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </main>
+    <footer>
+      <hr />
+      <p>©2024 Meu site. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
