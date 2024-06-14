@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+  </head>
+  <body>
+    <!-- Tabelas 
+            <table> -> indica o elemento de tabela
+            <tr> -> linha da tabela (table row)
+            <td> -> célula da tabela (table data)
+            <th> -> cabeçalho
+            <thead> -> cabeçalho da tabela
+            <tbody> -> corpo da tabela
+            <tfoot> -> rodapé da tabela
+        -->
+    <table border="1" style="border-collapse: collapse">
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Endereço</th>
+        <th>Telefone</th>
+      </tr>
+      <tr>
+        <td>Karen</td>
+        <td>36</td>
+        <td>Pernambuco</td>
+        <td>81998748877</td>
+      </tr>
+      <tr>
+        <td>Adriano</td>
+        <td>30</td>
+        <td>São Paulo</td>
+        <td>81998746655</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <table border="2" style="border-collapse: collapse">
+      <thead>
+        <tr>
+          <th colspan="4">LISTA DE FUNCIONÁRIOS</th>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Pagamento Realizado?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Karen Menezes</td>
+          <td>karen@gmail.com</td>
+          <td>SIM</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Adriano Luiz</td>
+          <td>adriano@gmail.com</td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Miguel Silva</td>
+          <td>miguel@hotmail.com</td>
+          <td rowspan="2">SIM</td>
+          <!--o Rowspan "mescla" as celulas de acordo com as LINHAS da tabela, o valor 1,2 ou 3 é de acordo com a qtd de linhas que vc quer mesclar-->
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Rebeca</td>
+          <td>rebeca@hotmail.com</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">
+            Obs: Os funcionários recebem no último dia útil do mês
+          </td>
+          <!--o Colspan "mescla" as celulas de acordo com as COLUNAS da tabela, o valor 1,2 ou 3 é de acordo com a qtd de coluna que vc quer mesclar-->
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr />
+    <table border="1" style="border-collapse: separate">
+      <tr>
+        <th>Home</th>
+        <th>Disciplina</th>
+        <th>Nota</th>
+      </tr>
+      <tr>
+        <td rowspan="3">KAREN</th>
+        <td>Português</th>
+        <td>8,8</th>
+      </tr>
+      <tr>
+        <td>Matemática</th>
+        <td>9,1</th>
+      </tr>
+      <tr>
+        <td>Tecnologia</th>
+        <td>10</th>
+      </tr>
+    </table>
+
+<hr>
+
+<table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th>Zonas</th>
+        <th>Clube</th>
+        <th>Pontuação</th>
+        <th>Gols</th>
+        <th>Vitórias</th>
+    </tr>
+    <tr>
+        <td rowspan="4">Libertadores</td>
+        <td>Flamengo</td>
+        <td>14</td>
+        <td>13</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Bahia</td>
+        <td>14</td>
+        <td>10</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Botafogo</td>
+        <td>13</td>
+        <td>13</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>São Paulo</td>
+        <td>13</td>
+        <td>12</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Pré-libertadores</td>
+        <td>CA Paranaense</td>
+        <td>13</td>
+        <td>1000</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>RB Bragantino</td>
+        <td>10</td>
+        <td>99</td>
+        <td>2</td>
+    </tr>
+</table>
+  </body>
+</html>
