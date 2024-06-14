@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #bd1f76;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .intro {
+    background: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  .intro h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #7c467c;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .aulas {
+    background: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  .aulas h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #7c467c;
+  }
+  
+  .aulas ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .aulas ul li {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .aulas ul li a {
+    text-decoration: none;
+    color: #bd1f76;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .aulas ul li a:hover {
+    color: #97518e;
+  }
+  
+  .material-symbols-outlined {
+    font-size: 1.5rem;
+    color: #bd1f76;
+  }
+  
