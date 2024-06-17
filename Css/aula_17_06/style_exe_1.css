@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playwright", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+#titulo-principal {
+  font-size: 44px;
+  font-weight: 700;
+  color: #4d245f;
+  text-align: center;
+  text-shadow: 4px 2px 1px rgba(139, 35, 35, 0.2);
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.texto-introducao_1 {
+  font-size: 22px;
+  font-style: italic;
+  color: #22867e;
+  margin-bottom: 15px;
+}
+
+.texto-introducao_2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+  text-shadow: 4px 2px 4px rgba(139, 35, 35, 0.2);
+}
+
+.caixa {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.caixa p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+figure {
+  text-align: center;
+  margin-top: 20px;
+}
+
+figure img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+  font-style: italic;
+  color: #666;
+}

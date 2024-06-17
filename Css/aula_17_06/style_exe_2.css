@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playwright", cursive;
+  background: linear-gradient(to right, #eeaeca, #94bbe9);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secao {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  text-align: center;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #7e106c;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.header hr {
+  background-color: #333;
+  height: 2px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.botoes {
+  text-align: center;
+}
+
+.botoes p {
+  margin-bottom: 10px;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin: 5px;
+}
+
+.botao:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.botao_um {
+  background-color: #4caf50;
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.botao_um:hover {
+  background-color: #3e8e41;
+}
+
+.botao_dois {
+  background-color: #ca22a6;
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.botao_dois:hover {
+  background-color: #d900a3;
+}
+
+.botao_tres {
+  background-color: #2196f3;
+  box-shadow: 2px 2px 5px rgba(91, 52, 153, 0.514);
+}
+
+.botao_tres:hover {
+  background-color: #21588f;
+}
+
+.imagem_tabela {
+  text-align: center;
+}
+
+.imagem_tabela .imagem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.imagem_tabela img {
+  max-width: 300px;
+  height: auto;
+  box-shadow: 8px 8px 2px rgba(153, 17, 123, 0.493);
+  border-radius: 10px;
+}
+
+.imagem_tabela .tabela {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem_tabela table {
+  width: 100%;
+  max-width: 500px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.imagem_tabela th,
+.imagem_tabela td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.imagem_tabela th {
+  background-color: #f0f0f0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-botao {
+  text-align: center;
+}
+
+.rodape {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a0625;
+  color: #fff;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rodape footer {
+  font-size: 14px;
+}
