@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.item_1 {
+  background-color: orange;
+}
+
+.item_2 {
+  background-color: purple;
+}
+
+.item_3 {
+  background-color: green;
+  align-self: flex-start;
+}
+
+.item_4 {
+  background-color: rgb(13, 17, 196);
+}
+
+.item_1,
+.item_2,
+.item_3,
+.item_4 {
+  width: 200px;
+  padding: 8px;
+}
+
+.container {
+  background-color: darkcyan;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  align-content: center;
+  gap: 16px;
+}
