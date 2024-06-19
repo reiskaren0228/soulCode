@@ -116,3 +116,130 @@ th {
 .contato-whatsapp:hover {
   filter: invert(1);
 }
+
+/*Mobile (0 - 480px)*/
+
+@media (max-width: 480px) {
+  .cabecalho {
+    height: auto;
+    padding: 0;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  .descricao {
+    font-style: italic;
+    font-size: 1rem;
+  }
+
+  .btn {
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 0.8rem;
+    font-family: "Inter", sans-serif;
+    margin: 6px 0;
+    cursor: pointer;
+    transition: background-color 0.9s;
+  }
+
+  .newsletter {
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .cronograma {
+    width: auto;
+    margin: auto;
+  }
+
+  table {
+    font-size: 0.8rem;
+    width: auto;
+    border-collapse: collapse;
+    border: 1.5px solid #cccccc6e;
+    border-color: #ccc;
+  }
+
+  td,
+  th {
+    border: 1px solid #ccc;
+    padding: 3px;
+    text-align: center;
+    background-color: #3a373763;
+  }
+
+  th {
+    padding: 6px 0;
+    text-align: center;
+    background-color: #cccccc56;
+    color: black;
+  }
+}
+/*Tablet (481px - 768px)*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .cabecalho {
+    height: auto;
+    padding: 10px;
+  }
+
+  .titulo {
+    font-size: 2rem;
+  }
+
+  .descricao {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: background-color 0.9s;
+  }
+
+  .newsletter {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .cronograma {
+    width: 100%;
+    margin: auto;
+  }
+
+  table {
+    font-size: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1.5px solid #cccccc6e;
+    border-color: #ccc;
+  }
+
+  td,
+  th {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    background-color: #3a373763;
+  }
+
+  th {
+    padding: 8px 0;
+    text-align: center;
+    background-color: #cccccc56;
+    color: black;
+  }
+}
