@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #156426;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+.intro,
+.gallery {
+  margin-bottom: 2rem;
+}
+
+.images {
+  display: flex;
+  gap: 1rem;
+}
+
+.image {
+  background-color: #20a57d;
+  font-weight: 600;
+  padding: 2rem;
+  flex: 1;
+  text-align: center;
+}
+
+footer {
+  background-color: #156426;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/*Mobile (0 - 480px)*/
+
+@media (max-width: 480px) {
+  body {
+    background-color: rgba(136, 216, 189, 0.774);
+  }
+
+  header {
+    color: white;
+    padding: 1rem;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .images {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+/*Tablet (481px - 768px)*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: rgba(128, 155, 30, 0.849);
+  }
+
+  header {
+    background-color: #156426;
+    color: white;
+    padding: 1rem;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .images {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/*Laptops (769px - 1279px)*/
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  body {
+    background-color: rgba(224, 228, 12, 0.952);
+  }
+
+  header {
+    background-color: #156426;
+    color: white;
+    padding: 1.5rem;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 1.5rem;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .images {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
