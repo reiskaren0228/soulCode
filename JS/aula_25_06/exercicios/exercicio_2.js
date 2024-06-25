@@ -86,3 +86,13 @@ for (let num_linha = 1; num_linha <= 5; num_linha++) {
   }
   console.log(linha);
 }
+
+//ou
+
+let linha = "";
+let altura = 10;
+
+for (let index = 0; index < altura; index++) {
+  linha = linha + "*";
+  console.log(linha);
+}
