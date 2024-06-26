@@ -49,3 +49,33 @@ function soma(a, b) {
 soma(87, 36);
 soma(20, 28);
 soma(5, 11);
+
+function calcularMedia(n1, n2, n3) {
+  let resultado = (n1 + n2 + n3) / 3;
+  console.log(`A média é ${resultado}`);
+
+  // Retorno = saída da função
+  return resultado;
+}
+
+let mediaAluno1 = calcularMedia(7.0, 6.0, 9.0);
+let mediaAluno2 = calcularMedia(8.0, 10.0, 6.0);
+let mediaAluno3 = calcularMedia(4.0, 5.0, 7.0);
+
+console.log(mediaAluno1);
+console.log(mediaAluno2);
+console.log(mediaAluno3);
+
+
+
+
+function calcularImc(peso, altura) {
+  return peso / (altura * altura);
+}
+
+let imc1 = calcularImc(87, 1.78);
+let imc2 = calcularImc(50, 1.9);
+let imc3 = calcularImc(78, 1.75);
+
+let mediaImc = calcularMedia(imc1, imc2, imc3);
+console.log(mediaImc);
