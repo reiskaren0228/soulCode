@@ -91,9 +91,7 @@ let returnArraytxtStrings = [
   "lasanha",
   "purê",
 ];
-let novorReturnArrayStrings = functionTxtStrings(
-  returnArraytxtStrings
-);
+let novorReturnArrayStrings = functionTxtStrings(returnArraytxtStrings);
 
 console.log(novorReturnArrayStrings);
 
@@ -158,7 +156,7 @@ function txtComparador(txtStr1, txtStr2) {
 
 console.log(txtComparador("chocolate", "chocolate"));
 console.log(txtComparador("farofa", "guisado"));
-console.log(txtComparador("0228", 4228));
+console.log(txtComparador("4228", 4228));
 
 /*11. Crie uma função que recebe um dia, mês e ano dentro de um returnArray. Retorna a data utilizando o tipoSeparador que também será definido via parâmetros da função (-, / ou .). Ex: dataFunction(returnArray, '.') -> '20.06.2000'*/
 
