@@ -71,31 +71,31 @@ for (let i = 0; i < numeros.length; i++) {
   console.log(numeros[i]);
 }
 
-/*5. Crie uma função que recebe um returnArray de txttxtStrings como parâmetro e retorne um novo returnArray apenas com as txttxtStrings acima de 5 caracteres.*/
+/*5. Crie uma função que recebe um returnArray de txtStrings como parâmetro e retorne um novo returnArray apenas com as txtStrings acima de 5 caracteres.*/
 
-function functiontxttxtStrings(returnArraytxttxtStrings) {
-  return returnArraytxttxtStrings.filter(function (txttxtString) {
-    return txttxtString.length > 5;
+function functionTxtStrings(returnArraytxtStrings) {
+  return returnArraytxtStrings.filter(function (txtString) {
+    return txtString.length > 5;
   });
 }
 
-let returnArraytxttxtStrings = [
+let returnArraytxtStrings = [
   "feijão",
   "arroz",
   "kibe",
   "legumes",
   "macarrão",
-  "etxttxtStrogonofe",
+  "estrogonofe",
   "galeto",
   "salada",
   "lasanha",
   "purê",
 ];
-let novoreturnArraytxttxtStrings = functiontxttxtStrings(
-  returnArraytxttxtStrings
+let novorReturnArrayStrings = functionTxtStrings(
+  returnArraytxtStrings
 );
 
-console.log(novoreturnArraytxttxtStrings);
+console.log(novorReturnArrayStrings);
 
 /*6. Crie um returnArray com 7 números. Percorra e indique qual o maior número deles.*/
 
@@ -124,7 +124,7 @@ console.log(
   `Os dois ultimos dígitos verificadores são: ${digitosVerificadores}`
 );
 
-/*8. Crie uma função que inverte uma txttxtString. Retorna ela invertida.*/
+/*8. Crie uma função que inverte uma txtString. Retorna ela invertida.*/
 
 function invtxtStr(txttxtStr) {
   return txttxtStr.split("").reverse().join("");
