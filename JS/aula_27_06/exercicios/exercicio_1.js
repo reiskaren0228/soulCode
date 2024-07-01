@@ -184,3 +184,16 @@ let palavra_1 = "chocolate";
 let palavra_2 = "NÃO tem chocolate";
 let saida = buscadorFunction(arrayFood, palavra_1, palavra_2);
 console.log(saida);
+
+/*function busca(array, elemento, valorPadrao) {
+    if(array.includes(elemento)) {
+        return elemento;
+    }
+
+    // Caso não entre no if da L150, o código chegará na linha abaixo (equivale a um else);
+    return valorPadrao;
+}
+
+let array = ["alface", "pimenta", "maionese", "ovo"];
+console.log(busca(array, "batata", "Não tem batata =("));
+console.log(busca(array, "pimenta", "Não tem pimenta =)"));*/
