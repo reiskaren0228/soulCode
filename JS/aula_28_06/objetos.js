@@ -28,8 +28,7 @@ let pessoa2 = {
 
 // Acesso de propriedade
 // console.log(pessoa1.nome);
-// console.log(pessoa2.idade);
-// console.log(pessoa1["peso"]);
+// console.log(pessoa2.idade); 0// console.log(pessoa1["peso"]);
 // console.log(pessoa2["altura"]);
 // console.log(pessoa1.email);
 
